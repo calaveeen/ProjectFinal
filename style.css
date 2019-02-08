@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 
+
 body {background-color: black;
     color:white;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -9,14 +10,22 @@ body {background-color: black;
 }
 
 .title {
-    color: lightcyan;
+    color: darkgoldenrod;
     font-family: sans-serif;
     text-decoration: underline;
+    text-align: center;
+}
+
+.myList {
+    text-align: center;
+    list-style-position: inside;
 }
 
 #myTitle {
     text-align: center;
+    color: darkgoldenrod;
 };
+
 
 a:link, a:visited {
     background-color: grey;
